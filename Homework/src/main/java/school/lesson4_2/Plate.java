@@ -8,7 +8,11 @@ public class Plate {
     }
 
     public void decreaseFood(int amount) {
-        food -= amount;
+        if (food >= amount) {
+            food -= amount;
+        } else {
+            System.out.println("Cannot feed the cat!");
+        }
     }
 
     public void info() {
