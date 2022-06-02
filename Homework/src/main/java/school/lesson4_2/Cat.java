@@ -15,6 +15,7 @@ public class Cat {
         if (appetite < plate.getFoodAmount()) {
             plate.decreaseFood(appetite);
             fullBelly = true;
+            System.out.println("Cat has a full belly!");
         } else {
             System.out.println("Not enough food");
         }
