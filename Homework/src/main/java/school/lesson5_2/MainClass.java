@@ -1,6 +1,6 @@
-package school.lessonX;
+package school.lesson5_2;
 
-public class HomeWorkAppX {
+public class MainClass {
     public static void main(String[] args) {
 
     }
