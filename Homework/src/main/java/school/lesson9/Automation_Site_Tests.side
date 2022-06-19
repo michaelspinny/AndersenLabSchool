@@ -1,0 +1,271 @@
+{
+  "id": "6da6be06-1727-42f2-a3e4-a8ad8cfca7f0",
+  "version": "2.0",
+  "name": "Automation_Site_Tests",
+  "url": "http://automationpractice.com",
+  "tests": [{
+    "id": "313f161f-a00d-4870-a2a8-7d1fe1e3503d",
+    "name": "Login_Success",
+    "commands": [{
+      "id": "8d72a637-013b-4afe-b93a-915c1545861f",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d307ae6f-fba5-42ef-a46a-9b39065498b1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5d0a8e2-fac5-4fe3-89d6-7775c8c25a08",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.login", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div/div/nav/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?controller=my-account']", "xpath:href"],
+        ["xpath=//nav/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe3fb1ff-d645-4a4d-85c7-6549928726d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dab12361-3726-477a-8ed0-fadb10d8e171",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "irnwotlxbvbxfcckje@nthrw.com"
+    }, {
+      "id": "5160dead-de8b-4fb5-9ada-5ad01553dfe6",
+      "comment": "",
+      "command": "click",
+      "target": "id=passwd",
+      "targets": [
+        ["id=passwd", "id"],
+        ["name=passwd", "name"],
+        ["css=#passwd", "css:finder"],
+        ["xpath=//input[@id='passwd']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "055fd861-085c-445b-8bfc-c1ec79b7002a",
+      "comment": "",
+      "command": "type",
+      "target": "id=passwd",
+      "targets": [
+        ["id=passwd", "id"],
+        ["name=passwd", "name"],
+        ["css=#passwd", "css:finder"],
+        ["xpath=//input[@id='passwd']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Aa111111"
+    }, {
+      "id": "8998bc40-14ce-40c9-b1a6-f4e428511414",
+      "comment": "",
+      "command": "click",
+      "target": "css=#SubmitLogin > span",
+      "targets": [
+        ["css=#SubmitLogin > span", "css:finder"],
+        ["xpath=//button[@id='SubmitLogin']/span", "xpath:idRelative"],
+        ["xpath=//p[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3e084693-9653-4c41-bfd2-5db5b52c8064",
+    "name": "Perform_Product_Search",
+    "commands": [{
+      "id": "a0ff686f-4818-42c7-862e-2c172fae7a7f",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3630e385-f961-4634-b5f3-7d6f04516ec2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e391d90f-a504-4cdf-897a-866319535025",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.login", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div/div/nav/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?controller=my-account']", "xpath:href"],
+        ["xpath=//nav/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14e76e4a-d33a-4406-aa65-8765421e5c04",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f985798-a22b-4bf9-9993-1ee4d13f1d88",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "irnwotlxbvbxfcckje@nthrw.com"
+    }, {
+      "id": "714f53a5-be11-4334-87f9-f8b590104bfc",
+      "comment": "",
+      "command": "click",
+      "target": "id=passwd",
+      "targets": [
+        ["id=passwd", "id"],
+        ["name=passwd", "name"],
+        ["css=#passwd", "css:finder"],
+        ["xpath=//input[@id='passwd']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1a4d3f5-5163-491d-8f31-4aa087a0a80b",
+      "comment": "",
+      "command": "type",
+      "target": "id=passwd",
+      "targets": [
+        ["id=passwd", "id"],
+        ["name=passwd", "name"],
+        ["css=#passwd", "css:finder"],
+        ["xpath=//input[@id='passwd']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Aa111111"
+    }, {
+      "id": "0b024ace-f2cc-4b5e-8180-3e02762b4fad",
+      "comment": "",
+      "command": "click",
+      "target": "css=#SubmitLogin > span",
+      "targets": [
+        ["css=#SubmitLogin > span", "css:finder"],
+        ["xpath=//button[@id='SubmitLogin']/span", "xpath:idRelative"],
+        ["xpath=//p[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bb94cf4-437b-43ec-ac1c-3f4585d7deec",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query_top",
+      "targets": [
+        ["id=search_query_top", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query_top", "css:finder"],
+        ["xpath=//input[@id='search_query_top']", "xpath:attributes"],
+        ["xpath=//form[@id='searchbox']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04780bc2-40b0-4574-b5e2-cdee9491147f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=submit_search",
+      "targets": [
+        ["name=submit_search", "name"],
+        ["css=.button-search", "css:finder"],
+        ["xpath=//button[@name='submit_search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchbox']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a182c399-1b7c-41dc-947c-7c72b9fff557",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_query_top",
+      "targets": [
+        ["id=search_query_top", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query_top", "css:finder"],
+        ["xpath=//input[@id='search_query_top']", "xpath:attributes"],
+        ["xpath=//form[@id='searchbox']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Dress"
+    }, {
+      "id": "7c56ca90-51fd-4579-bc79-9fe0f1b2a10d",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit_search",
+      "targets": [
+        ["name=submit_search", "name"],
+        ["css=.button-search", "css:finder"],
+        ["xpath=//button[@name='submit_search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchbox']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "819e0f51-5758-47ad-a914-5630a4c99642",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["313f161f-a00d-4870-a2a8-7d1fe1e3503d"]
+  }],
+  "urls": ["http://automationpractice.com/"],
+  "plugins": []
+}
